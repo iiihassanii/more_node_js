@@ -8,6 +8,8 @@ for i in lts:
         counter = lts.count(i)
         if counter > 1:
             dec.update({i: counter})
+
+
 arr2 += lts.sort(reverse=True)
 s = ''.join(str(x) for x in arr2)
 print(arr)
